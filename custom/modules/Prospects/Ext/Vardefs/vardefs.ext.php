@@ -3,12 +3,17 @@
 
 
  // created: 2015-08-20 11:47:31
-$dictionary['Prospect']['fields']['jjwg_maps_address_c']['inline_edit']=1;
+$dictionary['Prospect']['fields']['jjwg_maps_lng_c']['inline_edit']=1;
 
  
 
  // created: 2015-08-20 11:47:31
-$dictionary['Prospect']['fields']['jjwg_maps_lng_c']['inline_edit']=1;
+$dictionary['Prospect']['fields']['jjwg_maps_lat_c']['inline_edit']=1;
+
+ 
+
+ // created: 2015-08-20 11:47:31
+$dictionary['Prospect']['fields']['jjwg_maps_address_c']['inline_edit']=1;
 
  
 
@@ -28,9 +33,4 @@ $dictionary["Prospect"]["fields"]["fp_events_prospects_2"] = array (
   'vname' => 'LBL_FP_EVENTS_PROSPECTS_2_FROM_FP_EVENTS_TITLE',
 );
 
-
- // created: 2015-08-20 11:47:31
-$dictionary['Prospect']['fields']['jjwg_maps_lat_c']['inline_edit']=1;
-
- 
 ?>

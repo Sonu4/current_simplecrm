@@ -250,7 +250,7 @@ function set_return_and_save_Employee(popup_reply_data) {
   var passthru_data = popup_reply_data.passthru_data;
   var select_entire_list = typeof( popup_reply_data.select_entire_list ) == 'undefined' ? 0 : popup_reply_data.select_entire_list;
   var current_query_by_page = popup_reply_data.current_query_by_page;
- sendLog("Hello From The Emploee");
+  sendLog("Hello From The Emploee");
   // construct the POST request
   var query_array = new Array();
   if (name_to_value_array != 'undefined') {
@@ -347,7 +347,7 @@ function select_targets() {
   htmltext += "<tr><td style='padding: 2px;text-align:right;'><img src='themes/default/images/view-process-own.png'></td><td style='padding: 2px;font-size: 110%;'><strong><a href='#' onclick='handle_targets();return false;'>" + SUGAR.language.get('FP_events', 'LBL_SELECT_DELEGATES_TARGETS') + "</a></strong><td></tr>";
   htmltext += "<tr><td style='padding: 2px;text-align:right;'><img src='themes/default/images/view-process-own.png'></td><td style='padding: 2px;font-size: 110%;'><strong><a href='#' onclick='handle_contacts();return false;'>" + SUGAR.language.get('FP_events', 'LBL_SELECT_DELEGATES_CONTACTS') + "</a></strong><td></tr>";
   htmltext += "<tr><td style='padding: 2px;text-align:right;'><img src='themes/default/images/view-process-own.png'></td><td style='padding: 2px;font-size: 110%;'><strong><a href='#' onclick='handle_leads();return false;'>" + SUGAR.language.get('FP_events', 'LBL_SELECT_DELEGATES_LEADS') + "</a></strong><td></tr>";
- // htmltext += "<tr><td style='padding: 2px;text-align:right;'><img src='themes/default/images/view-process-own.png'></td><td style='padding: 2px;font-size: 110%;'><strong><a href='#' onclick='handle_Employee();return false;'>" + SUGAR.language.get('FP_events', "LBL_SELECT_DELEGATES_TARGET_LIST") + "</a></strong><td></tr>";
+  htmltext += "<tr><td style='padding: 2px;text-align:right;'><img src='themes/default/images/view-process-own.png'></td><td style='padding: 2px;font-size: 110%;'><strong><a href='#' onclick='handle_Employee();return false;'>" + SUGAR.language.get('FP_events', 'LBL_SELECT_DELEGATES_TARGET_LIST') + "</a></strong><td></tr>";
 
 
  

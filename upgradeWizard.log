@@ -14744,3 +14744,9 @@ Thu, 03 Aug 2017 18:16:59 +0530 [UpgradeWizard] - Upgrade started. At start.php
 Thu, 03 Aug 2017 18:16:59 +0530 [UpgradeWizard] - at unlinkUWTempFiles()
 Thu, 03 Aug 2017 18:16:59 +0530 [UpgradeWizard] - finished!
 Thu, 03 Aug 2017 18:16:59 +0530 [UpgradeWizard] - resetting $_SESSION
+Fri, 13 Jul 2018 09:40:00 +0530 [UpgradeWizard] - setting session variables...
+Fri, 13 Jul 2018 09:40:00 +0530 [UpgradeWizard] - -----------------------------------------------------------------------------
+Fri, 13 Jul 2018 09:40:00 +0530 [UpgradeWizard] - Upgrade started. At start.php
+Fri, 13 Jul 2018 09:40:00 +0530 [UpgradeWizard] - at unlinkUWTempFiles()
+Fri, 13 Jul 2018 09:40:00 +0530 [UpgradeWizard] - finished!
+Fri, 13 Jul 2018 09:40:00 +0530 [UpgradeWizard] - resetting $_SESSION

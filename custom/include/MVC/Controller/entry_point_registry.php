@@ -22,5 +22,10 @@ $entry_point_registry['SendReportsinEmailUploadImage'] = array (
   'file' => 'custom/modules/Schedulers/upload.php', 
   'auth' => false,
 );
+$entry_point_registry['getAppVersion'] = array (
+  'file' => 'mobilecrm/getappversion.php',
+  'auth' => false,
+);
+
 /*for Scheduled Reports Charts in email*/
 

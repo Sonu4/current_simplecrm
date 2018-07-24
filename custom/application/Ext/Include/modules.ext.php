@@ -3,9 +3,9 @@
 
  
  //WARNING: The contents of this file are auto-generated
-$beanList['E_Employee'] = 'E_Employee';
-$beanFiles['E_Employee'] = 'modules/E_Employee/E_Employee.php';
-$moduleList[] = 'E_Employee';
+$beanList['scrm_Partners'] = 'scrm_Partners';
+$beanFiles['scrm_Partners'] = 'modules/scrm_Partners/scrm_Partners.php';
+$moduleList[] = 'scrm_Partners';
 
 
  
@@ -24,9 +24,16 @@ $moduleList[] = 'simpl_Cloud_Agent';
 
  
  //WARNING: The contents of this file are auto-generated
-$beanList['scrm_Partner_Contacts'] = 'scrm_Partner_Contacts';
-$beanFiles['scrm_Partner_Contacts'] = 'modules/scrm_Partner_Contacts/scrm_Partner_Contacts.php';
-$moduleList[] = 'scrm_Partner_Contacts';
+$beanList['shubh_Bookstore'] = 'shubh_Bookstore';
+$beanFiles['shubh_Bookstore'] = 'modules/shubh_Bookstore/shubh_Bookstore.php';
+$moduleList[] = 'shubh_Bookstore';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['E_Employee'] = 'E_Employee';
+$beanFiles['E_Employee'] = 'modules/E_Employee/E_Employee.php';
+$moduleList[] = 'E_Employee';
 
 
  
@@ -38,23 +45,9 @@ $moduleList[] = 'scrm_Escalation_Audit';
 
  
  //WARNING: The contents of this file are auto-generated
-$beanList['lb_set_field_background'] = 'lb_set_field_background';
-$beanFiles['lb_set_field_background'] = 'modules/lb_set_field_background/lb_set_field_background.php';
-$moduleList[] = 'lb_set_field_background';
-
-
- 
- //WARNING: The contents of this file are auto-generated
-$beanList['scrm_Partners'] = 'scrm_Partners';
-$beanFiles['scrm_Partners'] = 'modules/scrm_Partners/scrm_Partners.php';
-$moduleList[] = 'scrm_Partners';
-
-
- 
- //WARNING: The contents of this file are auto-generated
-$beanList['scrm_Feedback'] = 'scrm_Feedback';
-$beanFiles['scrm_Feedback'] = 'modules/scrm_Feedback/scrm_Feedback.php';
-$moduleList[] = 'scrm_Feedback';
+$beanList['scrm_Escalation_Matrix'] = 'scrm_Escalation_Matrix';
+$beanFiles['scrm_Escalation_Matrix'] = 'modules/scrm_Escalation_Matrix/scrm_Escalation_Matrix.php';
+$moduleList[] = 'scrm_Escalation_Matrix';
 
 
 
@@ -74,16 +67,23 @@ $modInvisList[] = 'AM_ProjectHolidays';
 
  
  //WARNING: The contents of this file are auto-generated
-$beanList['shubh_Bookstore'] = 'shubh_Bookstore';
-$beanFiles['shubh_Bookstore'] = 'modules/shubh_Bookstore/shubh_Bookstore.php';
-$moduleList[] = 'shubh_Bookstore';
+$beanList['scrm_Feedback'] = 'scrm_Feedback';
+$beanFiles['scrm_Feedback'] = 'modules/scrm_Feedback/scrm_Feedback.php';
+$moduleList[] = 'scrm_Feedback';
 
 
  
  //WARNING: The contents of this file are auto-generated
-$beanList['scrm_Escalation_Matrix'] = 'scrm_Escalation_Matrix';
-$beanFiles['scrm_Escalation_Matrix'] = 'modules/scrm_Escalation_Matrix/scrm_Escalation_Matrix.php';
-$moduleList[] = 'scrm_Escalation_Matrix';
+$beanList['scrm_Partner_Contacts'] = 'scrm_Partner_Contacts';
+$beanFiles['scrm_Partner_Contacts'] = 'modules/scrm_Partner_Contacts/scrm_Partner_Contacts.php';
+$moduleList[] = 'scrm_Partner_Contacts';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['lb_set_field_background'] = 'lb_set_field_background';
+$beanFiles['lb_set_field_background'] = 'modules/lb_set_field_background/lb_set_field_background.php';
+$moduleList[] = 'lb_set_field_background';
 
 
 ?>

@@ -2,6 +2,10 @@
  //WARNING: The contents of this file are auto-generated
 
 
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_USERS_SF_SALES_FORECAST_1_FROM_SF_SALES_FORECAST_TITLE'] = 'Sales Targets';
+
+
 
 /**
  * Asterisk SugarCRM Integration
@@ -49,9 +53,5 @@ $mod_strings['LBL_ASTERISK_OUTBOUND_DESC'] = 'If selected the user will be enabl
 
 
 
-
-
-//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
-$mod_strings['LBL_USERS_SF_SALES_FORECAST_1_FROM_SF_SALES_FORECAST_TITLE'] = 'Sales Targets';
 
 ?>

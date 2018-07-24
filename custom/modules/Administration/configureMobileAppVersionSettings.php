@@ -1,20 +1,26 @@
 <?php 
-	if (isset($_POST['appversion'])) {
+//ini_set("display_errors", "on");
+	if (isset($_REQUEST['appversion'])) {
 
 		global $db;
 		global $current_user;
  		$current_user_id = $current_user->id;
-		$appversion=$_POST['appversion'];
+		$appversion=$_REQUEST['appversion'];
+		
+		$old_version ="SELECT version FROM mobileapp_version WHERE 1"; 
+	  	$r = $db->query($old_version);
+	  	$ver=$db->fetchByAssoc($r);
+
+	  
 
 		if ($appversion=='') {
 			$show='<h3>Add some value</h3>';
 
 		}else{
 
-				$update="UPDATE mobileapp_version SET version='$appversion',modified_by='$current_user_id',modified_date=current_timestamp()";
+				$update="UPDATE mobileapp_version SET version='$appversion',modified_by='$current_user_id',modified_date=current_timestamp(),old_version='".$ver['version']."'";
 
-
-		
+				echo $update;
 
 				$result=$db->query($update);
 				if ($result > 0) {
@@ -48,10 +54,10 @@
 	<div>
 
 		<button type="submit" id="btnAppversion" class="btn btn-info" name="btnAppversion">Update</button>
-		<a href="index.php?module=Administration&action=index" style="text-decoration:none !important;">
+		 <a href="index.php?module=Administration&action=index" style="text-decoration:none !important;">
 			<input type="submit"  value="Cancel" class="btn btn-info" style="height:34px;width:70px;"></a>
 	</div>
 	
 </form>
 </body>
-</html>
+</html> 

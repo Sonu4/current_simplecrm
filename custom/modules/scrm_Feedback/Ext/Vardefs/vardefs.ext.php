@@ -3,8 +3,14 @@
 
 
  // created: 2017-09-14 13:40:07
-$dictionary['scrm_Feedback']['fields']['feedback_resolution_time_c']['inline_edit']='';
-$dictionary['scrm_Feedback']['fields']['feedback_resolution_time_c']['labelValue']='Was your issue resolved the first time you reported it?';
+$dictionary['scrm_Feedback']['fields']['feedback_recommendation_time_c']['inline_edit']='';
+$dictionary['scrm_Feedback']['fields']['feedback_recommendation_time_c']['labelValue']='Will you recommend our service to your contacts?';
+
+ 
+
+ // created: 2017-09-14 13:40:07
+$dictionary['scrm_Feedback']['fields']['feedback_on_website_c']['inline_edit']='';
+$dictionary['scrm_Feedback']['fields']['feedback_on_website_c']['labelValue']='Will you allow us to use these remarks as testimonial on our website and in print?';
 
  
 
@@ -15,14 +21,32 @@ $dictionary['scrm_Feedback']['fields']['feedback_description_c']['labelValue']='
  
 
  // created: 2017-09-14 13:40:07
-$dictionary['scrm_Feedback']['fields']['feedback_recommend_friend_c']['inline_edit']='';
-$dictionary['scrm_Feedback']['fields']['feedback_recommend_friend_c']['labelValue']='Overall service rating';
+$dictionary['scrm_Feedback']['fields']['feedback_explaination_time_c']['inline_edit']='';
+$dictionary['scrm_Feedback']['fields']['feedback_explaination_time_c']['labelValue']='Was the engineer able to clearly articulate the troubleshooting steps on the call?';
 
  
 
  // created: 2017-09-14 13:40:07
-$dictionary['scrm_Feedback']['fields']['feeback_service_rating_c']['inline_edit']='';
-$dictionary['scrm_Feedback']['fields']['feeback_service_rating_c']['labelValue']='How would you rate your overall satisfaction with SimpleCRM Support?';
+$dictionary['scrm_Feedback']['fields']['feedback_resolution_time_c']['inline_edit']='';
+$dictionary['scrm_Feedback']['fields']['feedback_resolution_time_c']['labelValue']='Was your issue resolved the first time you reported it?';
+
+ 
+
+ // created: 2017-09-14 13:40:07
+$dictionary['scrm_Feedback']['fields']['feedback_resolution_result_c']['inline_edit']='';
+$dictionary['scrm_Feedback']['fields']['feedback_resolution_result_c']['labelValue']='Were you able to understand the tech support engineer clearly?';
+
+ 
+
+ // created: 2017-09-14 13:40:07
+$dictionary['scrm_Feedback']['fields']['feeback_case_id_c']['inline_edit']='';
+$dictionary['scrm_Feedback']['fields']['feeback_case_id_c']['labelValue']='feeback case id';
+
+ 
+
+ // created: 2017-09-14 13:40:07
+$dictionary['scrm_Feedback']['fields']['feedback_recommend_friend_c']['inline_edit']='';
+$dictionary['scrm_Feedback']['fields']['feedback_recommend_friend_c']['labelValue']='Overall service rating';
 
  
 
@@ -61,38 +85,14 @@ $dictionary["scrm_Feedback"]["fields"]["cases_scrm_feedback_1cases_ida"] = array
 
 
  // created: 2017-09-14 13:40:07
+$dictionary['scrm_Feedback']['fields']['feeback_service_rating_c']['inline_edit']='';
+$dictionary['scrm_Feedback']['fields']['feeback_service_rating_c']['labelValue']='How would you rate your overall satisfaction with SimpleCRM Support?';
+
+ 
+
+ // created: 2017-09-14 13:40:07
 $dictionary['scrm_Feedback']['fields']['feedback_date_entered_c']['inline_edit']='';
 $dictionary['scrm_Feedback']['fields']['feedback_date_entered_c']['labelValue']='Date Entered';
-
- 
-
- // created: 2017-09-14 13:40:07
-$dictionary['scrm_Feedback']['fields']['feedback_on_website_c']['inline_edit']='';
-$dictionary['scrm_Feedback']['fields']['feedback_on_website_c']['labelValue']='Will you allow us to use these remarks as testimonial on our website and in print?';
-
- 
-
- // created: 2017-09-14 13:40:07
-$dictionary['scrm_Feedback']['fields']['feedback_resolution_result_c']['inline_edit']='';
-$dictionary['scrm_Feedback']['fields']['feedback_resolution_result_c']['labelValue']='Were you able to understand the tech support engineer clearly?';
-
- 
-
- // created: 2017-09-14 13:40:07
-$dictionary['scrm_Feedback']['fields']['feedback_explaination_time_c']['inline_edit']='';
-$dictionary['scrm_Feedback']['fields']['feedback_explaination_time_c']['labelValue']='Was the engineer able to clearly articulate the troubleshooting steps on the call?';
-
- 
-
- // created: 2017-09-14 13:40:07
-$dictionary['scrm_Feedback']['fields']['feedback_recommendation_time_c']['inline_edit']='';
-$dictionary['scrm_Feedback']['fields']['feedback_recommendation_time_c']['labelValue']='Will you recommend our service to your contacts?';
-
- 
-
- // created: 2017-09-14 13:40:07
-$dictionary['scrm_Feedback']['fields']['feeback_case_id_c']['inline_edit']='';
-$dictionary['scrm_Feedback']['fields']['feeback_case_id_c']['labelValue']='feeback case id';
 
  
 ?>

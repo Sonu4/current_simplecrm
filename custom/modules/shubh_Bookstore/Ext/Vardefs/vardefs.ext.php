@@ -14,48 +14,9 @@ $dictionary['shubh_Bookstore']['fields']['state_c_cstm_c']['labelValue']='state 
 
  
 
- // created: 2018-05-19 13:39:54
-$dictionary['shubh_Bookstore']['fields']['total_no_of_books_c']['inline_edit']='1';
-$dictionary['shubh_Bookstore']['fields']['total_no_of_books_c']['labelValue']='Total no of books';
-
- 
-
- // created: 2018-05-14 11:05:20
-
- 
-
- // created: 2018-05-24 13:42:19
-$dictionary['shubh_Bookstore']['fields']['states_c']['inline_edit']='';
-$dictionary['shubh_Bookstore']['fields']['states_c']['labelValue']='states';
-
- 
-
- // created: 2018-05-24 14:10:36
-$dictionary['shubh_Bookstore']['fields']['countrys_c']['inline_edit']='1';
-$dictionary['shubh_Bookstore']['fields']['countrys_c']['labelValue']='Countries';
-
- 
-
- // created: 2018-06-02 09:47:04
-$dictionary['shubh_Bookstore']['fields']['country_c_cstm_c']['inline_edit']='1';
-$dictionary['shubh_Bookstore']['fields']['country_c_cstm_c']['labelValue']='country ';
-
- 
-
- // created: 2018-05-14 11:06:24
-$dictionary['shubh_Bookstore']['fields']['publishing_date_c']['inline_edit']='1';
-$dictionary['shubh_Bookstore']['fields']['publishing_date_c']['labelValue']='publishing date';
-
- 
-
- // created: 2018-05-17 16:36:55
-$dictionary['shubh_Bookstore']['fields']['name']['audited']=true;
-$dictionary['shubh_Bookstore']['fields']['name']['inline_edit']=true;
-$dictionary['shubh_Bookstore']['fields']['name']['duplicate_merge']='disabled';
-$dictionary['shubh_Bookstore']['fields']['name']['duplicate_merge_dom_value']='0';
-$dictionary['shubh_Bookstore']['fields']['name']['merge_filter']='disabled';
-$dictionary['shubh_Bookstore']['fields']['name']['unified_search']=false;
-$dictionary['shubh_Bookstore']['fields']['name']['comments']='This is a title of book';
+ // created: 2018-05-19 13:38:40
+$dictionary['shubh_Bookstore']['fields']['price_c']['inline_edit']='1';
+$dictionary['shubh_Bookstore']['fields']['price_c']['labelValue']='Price';
 
  
 
@@ -93,6 +54,24 @@ $dictionary["shubh_Bookstore"]["fields"]["shubh_bookstore_accountsaccounts_ida"]
 );
 
 
+ // created: 2018-05-14 11:06:24
+$dictionary['shubh_Bookstore']['fields']['publishing_date_c']['inline_edit']='1';
+$dictionary['shubh_Bookstore']['fields']['publishing_date_c']['labelValue']='publishing date';
+
+ 
+
+ // created: 2018-05-24 13:42:19
+$dictionary['shubh_Bookstore']['fields']['states_c']['inline_edit']='';
+$dictionary['shubh_Bookstore']['fields']['states_c']['labelValue']='states';
+
+ 
+
+ // created: 2018-05-24 14:10:36
+$dictionary['shubh_Bookstore']['fields']['countrys_c']['inline_edit']='1';
+$dictionary['shubh_Bookstore']['fields']['countrys_c']['labelValue']='Countries';
+
+ 
+
  // created: 2018-05-17 10:06:44
 $dictionary['shubh_Bookstore']['fields']['bookstore']['required']=true;
 $dictionary['shubh_Bookstore']['fields']['bookstore']['audited']=true;
@@ -100,9 +79,30 @@ $dictionary['shubh_Bookstore']['fields']['bookstore']['importable']='required';
 
  
 
- // created: 2018-05-19 13:38:40
-$dictionary['shubh_Bookstore']['fields']['price_c']['inline_edit']='1';
-$dictionary['shubh_Bookstore']['fields']['price_c']['labelValue']='Price';
+ // created: 2018-06-02 09:47:04
+$dictionary['shubh_Bookstore']['fields']['country_c_cstm_c']['inline_edit']='1';
+$dictionary['shubh_Bookstore']['fields']['country_c_cstm_c']['labelValue']='country ';
+
+ 
+
+ // created: 2018-05-14 11:05:20
+
+ 
+
+ // created: 2018-05-19 13:39:54
+$dictionary['shubh_Bookstore']['fields']['total_no_of_books_c']['inline_edit']='1';
+$dictionary['shubh_Bookstore']['fields']['total_no_of_books_c']['labelValue']='Total no of books';
+
+ 
+
+ // created: 2018-05-17 16:36:55
+$dictionary['shubh_Bookstore']['fields']['name']['audited']=true;
+$dictionary['shubh_Bookstore']['fields']['name']['inline_edit']=true;
+$dictionary['shubh_Bookstore']['fields']['name']['duplicate_merge']='disabled';
+$dictionary['shubh_Bookstore']['fields']['name']['duplicate_merge_dom_value']='0';
+$dictionary['shubh_Bookstore']['fields']['name']['merge_filter']='disabled';
+$dictionary['shubh_Bookstore']['fields']['name']['unified_search']=false;
+$dictionary['shubh_Bookstore']['fields']['name']['comments']='This is a title of book';
 
  
 ?>

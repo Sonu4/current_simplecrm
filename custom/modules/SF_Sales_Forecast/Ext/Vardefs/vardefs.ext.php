@@ -2,13 +2,9 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2016-05-10 11:44:31
-
- 
-
- // created: 2016-05-10 11:54:25
-$dictionary['SF_Sales_Forecast']['fields']['name']['full_text_search']=array (
-);
+ // created: 2017-07-26 11:01:01
+$dictionary['SF_Sales_Forecast']['fields']['percentage_c']['inline_edit']='1';
+$dictionary['SF_Sales_Forecast']['fields']['percentage_c']['labelValue']='Percentage';
 
  
 
@@ -46,13 +42,17 @@ $dictionary["SF_Sales_Forecast"]["fields"]["users_sf_sales_forecast_1users_ida"]
 );
 
 
- // created: 2017-07-26 11:01:01
-$dictionary['SF_Sales_Forecast']['fields']['percentage_c']['inline_edit']='1';
-$dictionary['SF_Sales_Forecast']['fields']['percentage_c']['labelValue']='Percentage';
+ // created: 2016-05-10 11:44:23
 
  
 
- // created: 2016-05-10 11:44:23
+ // created: 2016-05-10 11:44:31
+
+ 
+
+ // created: 2016-05-10 11:54:25
+$dictionary['SF_Sales_Forecast']['fields']['name']['full_text_search']=array (
+);
 
  
 ?>
