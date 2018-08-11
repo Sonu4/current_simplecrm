@@ -26,7 +26,7 @@ $layout_defs["E_Employee"]["subpanel_setup"]['fp_events_e_employee_1'] = array (
 );
 
 
- // created: 2018-06-22 16:31:47
+ // created: 2018-08-02 16:49:30
 $layout_defs["E_Employee"]["subpanel_setup"]['e_employee_fp_events'] = array (
   'order' => 100,
   'module' => 'FP_events',

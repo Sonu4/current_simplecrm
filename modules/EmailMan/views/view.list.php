@@ -86,6 +86,13 @@ class EmailManViewList extends ViewList
 		
 		global $app_strings;
 		
+        /**
+         * This code takes the [Send Queued Campaign Emails] Button to center of the page.
+         * Edited By : Shubham K.
+         * Date      : 25-Jul-2018
+         */
+		echo "<style>#form > table > tbody > tr > td > input.button{float:left;left : 44%;}</style>";
+
 		echo "<form action=\"index.php\" method=\"post\" name=\"EmailManDelivery\" id=\"form\">
 			<table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class='actionsContainer'>
 				<tr><td style=\"padding-bottom: 2px;\">

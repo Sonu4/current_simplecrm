@@ -17,6 +17,13 @@ $moduleList[] = 'SF_Sales_Forecast';
 
  
  //WARNING: The contents of this file are auto-generated
+$beanList['E_Employee'] = 'E_Employee';
+$beanFiles['E_Employee'] = 'modules/E_Employee/E_Employee.php';
+$moduleList[] = 'E_Employee';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 $beanList['simpl_Cloud_Agent'] = 'simpl_Cloud_Agent';
 $beanFiles['simpl_Cloud_Agent'] = 'modules/simpl_Cloud_Agent/simpl_Cloud_Agent.php';
 $moduleList[] = 'simpl_Cloud_Agent';
@@ -70,6 +77,13 @@ $modInvisList[] = 'AM_ProjectHolidays';
 $beanList['scrm_Feedback'] = 'scrm_Feedback';
 $beanFiles['scrm_Feedback'] = 'modules/scrm_Feedback/scrm_Feedback.php';
 $moduleList[] = 'scrm_Feedback';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['E_Employee'] = 'E_Employee';
+$beanFiles['E_Employee'] = 'modules/E_Employee/E_Employee.php';
+$moduleList[] = 'E_Employee';
 
 
  

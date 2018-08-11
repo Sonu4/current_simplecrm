@@ -1,12 +1,12 @@
 <?php
-// created: 2018-06-22 16:31:47
+// created: 2018-08-02 16:49:30
 $dictionary["FP_events"]["fields"]["e_employee_fp_events"] = array (
   'name' => 'e_employee_fp_events',
   'type' => 'link',
   'relationship' => 'e_employee_fp_events',
   'source' => 'non-db',
   'module' => 'E_Employee',
-  'bean_name' => false,
+  'bean_name' => 'E_Employee',
   'vname' => 'LBL_E_EMPLOYEE_FP_EVENTS_FROM_E_EMPLOYEE_TITLE',
   'id_name' => 'e_employee_fp_eventse_employee_ida',
 );

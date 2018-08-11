@@ -71,7 +71,9 @@
 
 {if count($data) == 0}
 	{assign var="hideTable" value=true}
-	<div class="list view listViewEmpty">
+	<div class="list view listViewEmpty footable-loaded footable" style="text-align: center;">
+		<!--Changed By Shubham-->
+		<div class="alert alert-info text-center col-lg-6 col-md-6 col-sm-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3" role="alert">
 		{if $displayEmptyDataMesssages}
         {if strlen($query) == 0}
                 {capture assign="createLink"}<a href="?module={$pageData.bean.moduleDir}&action=EditView&return_module={$pageData.bean.moduleDir}&return_action=DetailView">{$APP.LBL_CREATE_BUTTON_LABEL}</a>{/capture}
@@ -106,6 +108,7 @@
 			{include file='include/ListView/ListViewSearchLink.tpl'}
 		{/if}
 	</div>
+ </div>
 {/if}
 {$multiSelectData}
 {if $hideTable == false}

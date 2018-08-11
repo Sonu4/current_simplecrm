@@ -1,11 +1,11 @@
 <?php
-// created: 2018-05-17 10:09:24
+// created: 2018-08-02 16:51:22
 $sugar_config = array (
   'SAML_X509Cert' => '',
   'SAML_loginurl' => '',
   'addAjaxBannedModules' => 
   array (
-    0 => 'Accounts',
+    0 => 'shubh_Bookstore',
     1 => 'SecurityGroups',
     2 => 'AOR_Reports',
     3 => 'Opportunities',
@@ -335,7 +335,7 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 6,
+  'js_lang_version' => 7,
   'languages' => 
   array (
     'en_us' => 'English (US)',
@@ -421,8 +421,8 @@ $sugar_config = array (
   'securitysuite_inbound_email' => false,
   'securitysuite_inherit_assigned' => true,
   'securitysuite_inherit_creator' => true,
-  'securitysuite_inherit_parent' => false,
-  'securitysuite_popup_select' => false,
+  'securitysuite_inherit_parent' => true,
+  'securitysuite_popup_select' => true,
   'securitysuite_strict_rights' => false,
   'securitysuite_user_popup' => true,
   'securitysuite_user_role_precedence' => true,

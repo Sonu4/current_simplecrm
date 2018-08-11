@@ -585,3 +585,5 @@ $db = DBManagerFactory::getInstance();
 $result=$db->query("select state_key,state_name from country_cstm");
 while($row=$db->fetchRow($result)){$new_state_cstm_array[$row['state_key']] = $row['state_name'];}
 $GLOBALS['app_list_strings']['state_cstm_list']=$new_state_cstm_array; 
+$app_list_strings['moduleList']['E_Employee']='Employees';
+$app_list_strings['moduleListSingular']['E_Employee']='Employees';
